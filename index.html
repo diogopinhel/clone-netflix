@@ -4,24 +4,26 @@
     <!-- O meta costuma ter :(conjunto de caracteres, descrição da pagina, autor do documento, configurações da janela de config)-->
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <link rel="stylesheet" href="index.css"> <!-- Aqui é onde você vincula seu arquivo CSS -->
+    <link href="./styles/style.css" rel="stylesheet"> <!-- Aqui é onde você vincula seu arquivo CSS -->
     <title>PINHELFLIX</title> <!-- NOME NA BARRA DE NAVEGAÇÃO -->
 </head>
 
 <body>
   <div> <!-- div cabecalho-->
-    <h1>HELLO WORD</h1>
+    <h1 id="titulo-principal">HELLO WORD</h1>
     <h2>Subtitle</h2> 
     <h3>subdosub</h3>
   </div>
 
   <div> 
-    <p>Conteudo principal</p><!-- div conteudo principal-->
+    <h1 class="azul-grande">Conteudo principal</h1><!-- para varios ficarem com o mesmo estilo class-->
+    <h1 class="azul-grande" id="yellow">Conteudo principal</h1> <!-- class ficarem o (tipo de letra/cor base/estilos e tamanhos)  em id(caracteristtas especificas)    ID ELEMENTO UNICO CLASS VARIOS ELEMENTIS-->
+    <h1 class="azul-grande">Conteudo principal</h1>
 
   </div>
 
 
-    <img style="border-radius: 10px;" src="/images/diogo.png" height="400" width="400" >
+    <img src="./assets/images/diogo.png" id="minha-foto">
     <h2>Diogo Pinhel</h2>
     <a href="https://github.com/diogopinhel/BASIC-SITE">clique aqui</a> <!-- LINK -->
     <button> LINK </button>
