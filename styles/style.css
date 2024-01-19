@@ -1,23 +1,62 @@
-#caixa-mae{
-    width: 1000px;
-    height: 600px;
-    background-color: blue;
+body{
+    margin: 0px;
+}
+#logo{
+    width: 150px;
+
+}
+
+
+#container{
+    background-image: linear-gradient(103.24deg, rgba(0, 8, 29, 0.9) 23.83%, rgba(0, 8, 29, 0.3) 96.1%), url(https://assets.nflxext.com/ffe/siteui/vlv3/530fc327-2ddb-4038-a3f0-2da2d9ccede1/81c68250-e0f1-4cd8-bf2d-4fd8222163de/BR-pt-20230619-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: cover;
+    height: 700px;
+    padding: 30px;
+
+}
+
+#header{
+
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+
+#select-linguage{
+    padding: 5px 24px;
+    font-size: 16px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.541);
+    border-radius: 4px;
+    margin-right: 18px;
+    background-image: url(../assets/images/language.png);
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+
+
+}
+
+
+#btn-enter{
+    padding: 8px 10px;
+    font-size: 14px;
+    background-color: #e50914;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     
-} /* Todo o que eu fizer aqui afeta os filhos */
 
-#caixa-filho1{
-    width: 20%; /* assim estes 100% como isto esta dentro da caixa mao vao corresponder a 1000px */
-    height: 20%; /* assim estes 100% como isto esta dentro da caixa mao vao corresponder a 600px */
-    background-color: rgb(255, 0, 0);
 }
 
-#caixa-filho2{
-    width: 20%;
-    height: 20%;
-    background-color: rgb(94, 255, 0);
-}
-
+.options{
+    background-color: white;
+    color: black;
+    font-family: inherit;}
 
 
 
