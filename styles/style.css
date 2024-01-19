@@ -118,7 +118,7 @@ form{
 
 #box-container{
     width: 95%;
-    height: 800px;
+    height: 1100px;
     margin: 0 auto;
     margin-top: 100px;
     background: linear-gradient(333.52deg, #000235 24.58%, #010f42 84.55%, #E40913 104.96%);;
@@ -151,3 +151,31 @@ form{
     margin-left: 200px;
 }
 
+#tablet{
+    margin-right: 200px;
+    margin-left: 100px;
+}
+
+.shadow{
+    width: 90%;
+    height: 7px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+}
+
+#box-credits{
+height: 50px;
+
+
+}
+
+#credits{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+
+    
+}
